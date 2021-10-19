@@ -1,0 +1,7 @@
+xlsx-output/*
+csv-output/*
+csv-input/*
+json/*
+.DS_Store
+tmp.txt
+IDs/alleIDs.csv
