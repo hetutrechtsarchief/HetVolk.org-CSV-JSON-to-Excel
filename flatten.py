@@ -67,28 +67,3 @@ with open(argv[1]) as f:
           item.update(record)  # merge record values with person
           del(item["antwoord"]) # remove antwoord value since we have those values in person
           output.writerow(item)
-
-
-      # if "person" in record["antwoord"]
-      #   or "biljetten" in record["antwoord"]: # een of meerdere antwoorden dus voeg elk antwoord toe als afzonderlijk item
-        
-
-      #   for item in record["antwoord"]["person"]:
-      #     item["type"]="person" # set type in case we will have other items than just person
-          
-         
-      # if "biljetten" in record["antwoord"]: # een of meerdere antwoorden dus voeg elk antwoord toe als afzonderlijk item
-      #   for item in record["antwoord"]["person"]:
-      #     item["type"]="person" # set type in case we will have other items than just person
-          
-      #     if "bdate" in item:
-      #       item["bdate-iso"]=getDateISO(item["bdate"])
-          
-      #     if "ddate" in item:
-      #       item["ddate-iso"]=getDateISO(item["ddate"])
-
-      #     item.update(record)  # merge record values with person
-      #     del(item["antwoord"]) # remove antwoord value since we have those values in person
-      #     output.writerow(item)
-
-    
